@@ -1,0 +1,51 @@
+/* src/styles/App.css */
+:root {
+  --primary-green: #2F4F4F;
+  --light-green: #98FB98;
+  --dark-green: #006400;
+  --bg-light: #F0FFF0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: var(--bg-light);
+}
+
+.custom-navbar {
+  background-color: var(--primary-green) !important;
+  padding: 15px 0;
+}
+
+.navbar-brand, .nav-link {
+  color: var(--light-green) !important;
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.footer {
+  background-color: var(--primary-green);
+  color: var(--light-green);
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
