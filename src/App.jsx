@@ -10,6 +10,7 @@ import './styles/App.css';
 
 function App() {
   return (
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="app">
       <NavigationBar />
       <main className="main-content">
@@ -21,6 +22,7 @@ function App() {
       </main>
       <Footer />
     </div>
+    </Router>
   );
 }
 
