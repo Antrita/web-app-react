@@ -10,7 +10,7 @@ import './styles/App.css';
 
 function App() {
   return (
-    <Router basename={"https://Antrita.github.io/web-app-react"}>
+    <Router basename={"https://antrita.github.io/web-app-react"}>
     <div className="app">
       <NavigationBar />
       <main className="main-content">
