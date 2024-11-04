@@ -1,7 +1,7 @@
 {
   "name": "web_app",
   "version": "0.1.0",
-  "homepage": "https://Antrita.github.io/web-app-react",
+  "homepage": "https://antrita.github.io/web-app-react/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
